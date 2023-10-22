@@ -30,5 +30,11 @@ int main(){
     cout<<"Total of New Count is ---> "<<new_count<<endl;
 
 
+    // 04. FINDING ARRAY SUMMATION WITHOUT LOOP
+    int arr2[5]={1,2,3,4,5};
+    int arr2_length = sizeof(arr2)/sizeof(arr2[0]);
+    int result = arr2_length*(arr2_length+1)/2;
+    cout<<result<<endl;
+
     return 0;
 }
